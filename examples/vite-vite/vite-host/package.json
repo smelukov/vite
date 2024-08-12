@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@module-federation/vite": "workspace:*",
+    "@some/library": "workspace:*",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "vue": "^3.4.37",
-    "vue-router": "^4.4.3"
+    "vue-router": "^4.4.3",
+    "@wdxlab/events": "^2.0.0"
   },
   "devDependencies": {
     "@swc/core": "~1.7.10",

@@ -1,0 +1,12 @@
+{
+  "name": "@some/library",
+  "version": "0.0.3",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/main.js",
+  "dependencies": {
+    "@wdxlab/events": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
