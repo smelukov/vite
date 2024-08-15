@@ -27,6 +27,9 @@ export default defineConfig({
           requiredVersion: '18',
         },
         'react-dom': {},
+        'styled-components': {
+          singleton: true,
+        },
       },
     }),
     // If you set build.target: "chrome89", you can remove this plugin

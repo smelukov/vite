@@ -31,7 +31,7 @@ export default defineConfig({
           requiredVersion: '18',
         },
         'react-dom': {},
-        '@wdxlab/events': { singleton: true },
+        'styled-components': { singleton: true },
       },
       runtimePlugins: ['./src/mfPlugins'],
     }),
